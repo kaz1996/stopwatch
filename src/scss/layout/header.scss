@@ -1,0 +1,10 @@
+.header {
+
+  &__title {
+    @include text(7rem);
+  }
+
+  &__sub-title {
+    @include text(2.5rem, .2rem);
+  }
+}

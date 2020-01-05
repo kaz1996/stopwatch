@@ -1,0 +1,5 @@
+.message {
+  &__text {
+    @include text(6rem, 0);
+  }
+}

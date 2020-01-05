@@ -1,0 +1,14 @@
+$main-color: $color-white;
+$main-theme-color: $color-tomato;
+
+html {
+  font-size: 62.5%;
+}
+
+.page {
+  height: 100vh;
+  color: $main-color;
+  background-color: $main-theme-color;
+  font-family: $gupter;
+  font-size: 1.6em;
+}

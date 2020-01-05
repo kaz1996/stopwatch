@@ -1,0 +1,22 @@
+$hover-color: $color-tomato-lighten;
+$border-color: $color-white;
+
+.control {
+  &__button {
+    @include make-col(3);
+    color: inherit;
+    background-color: inherit;
+    border: .1rem solid $border-color;
+    font-size: 2rem;
+    padding: 1.5rem 0;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $hover-color;
+    }
+  }
+
+  &__text {
+    @include text(2rem, 0, (0 0 0 .5rem));
+  }
+}

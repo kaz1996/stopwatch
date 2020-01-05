@@ -1,0 +1,6 @@
+@mixin text($font-size, $letter-space: $letter-spacing, $text-margin: $no-margin) {
+  font-size: $font-size;
+  letter-spacing: $letter-space;
+  text-align: $text-center;
+  margin: $text-margin;
+}

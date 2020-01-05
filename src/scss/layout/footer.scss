@@ -1,0 +1,5 @@
+.footer {
+  &__copyright {
+    @include text(1.5rem, 0)
+  }
+}

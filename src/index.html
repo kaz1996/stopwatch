@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Online Stopwatch</title>
+</head>
+<body class="page">
+  <header class="header page__header">
+    <h1 class="header__title">STOPWATCH</h1>
+    <p class="header__sub-title">by vanillaJS</p>
+  </header>
+  <main class="content page__content">
+    <div class="stopwatch content__stopwatch">
+      <h2 class="stopwatch__time" id="js-stopwatch-time">
+        00:00<span class="stopwatch__time stopwatch__time--small">00</span>
+      </h2>
+      <div class="control stopwatch__control">
+        <button class="control__button" id="js-start">
+          <i class="fa fa-play"></i>
+          <span class="control__text">Start</span>
+        </button>
+        <button class="control__button" id="js-pause" disabled>
+          <i class="fa fa-pause"></i>
+          <span class="control__text">Pause</span>
+        </button>
+        <button class="control__button" id="js-reset">
+          <i class="fa fa-stop"></i>
+          <span class="control__text">Reset</span>
+        </button>
+      </div>
+    </div>
+    <div class="message content__message">
+      <p class="message__text text-center">Time it.</p>
+    </div>
+  </main>
+  <footer class="footter page__footer container">
+    <p class="footer__copyright">©Kazuhdie Nobehara 2019.</p>
+  </footer>
+</body>
+</html>

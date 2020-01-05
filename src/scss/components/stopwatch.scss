@@ -1,0 +1,24 @@
+.stopwatch {
+  &__time {
+    @include text(13rem);
+    font-weight: $bold;
+
+    &--small {
+      font-size: 5rem;
+    }
+  }
+
+  &__control {
+    @include make-row();
+    justify-content: space-around;
+    margin: 7rem auto 0 auto;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .stopwatch {
+    &__control {
+      width: 50%;
+    }
+  }
+}

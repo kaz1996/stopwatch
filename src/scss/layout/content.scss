@@ -1,0 +1,10 @@
+.content {
+  &__stopwatch {
+    @include make-container();
+    padding: 5rem 0;
+  }
+
+  &__message {
+    margin-top: 3rem;
+  }
+}

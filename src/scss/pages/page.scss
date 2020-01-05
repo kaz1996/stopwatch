@@ -1,0 +1,14 @@
+.page {
+
+  &__header {
+    padding-top: 5rem;
+  }
+
+  &__footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 1rem;
+  }
+}
